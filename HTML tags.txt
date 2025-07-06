@@ -1,0 +1,82 @@
+-> html tags,elements,attributes
+
+. <h1> </h1> -opening and closing tags
+. The h1 through h6 heading elements are used to signify the importance of content below them. The lower the number, the higher the importance, so h2 elements have less importance than h1 elements.
+. The p element is used to create a paragraph of text on websites. 
+. A comment in HTML starts with <!--, contains any number of lines of text, and ends with -->.
+. The main element is used to represent the main content of the body of an HTML document.
+. You can add images to your website by using the img element. img elements have an opening tag without a closing tag. An element without a closing tag is known as a void element.
+. The src attribute in an img element specifies the image's URL
+. All img elements should have an alt attribute. The alt attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load.
+. You can link to another page with the anchor (a) element.
+. A link's text must be placed between the opening and closing tags of an anchor (a) element.
+. To open links in a new tab, you can use the target attribute on the anchor (a) element. The target attribute specifies where to open the linked document.
+. The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+. To create an unordered list of items, you can use the ul element.
+. The li element is used to create a list item in an ordered or unordered list.
+. The figure element represents self-contained content and will allow you to associate an image with a caption.
+. A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+. To place emphasis on a specific word or phrase, you can use the em element.
+. The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
+. strong element represents main text ex=<training></strong>
+. The form element is used to get information from a user like their name, email, and other details.
+. The action attribute indicates where form data should be sent.
+. The input element allows you several ways to collect data from a web form. Like img elements, input elements are a void element and do not need closing tags.
+. There are many kinds of inputs you can create using the type attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
+->Placeholder text is used to give people a hint about what kind of information to enter into an input.
+->To prevent a user from submitting your form when required information is missing, you need to add the required attribute to an input element.
+. The button element is used to create a clickable button.
+. label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers).
+->The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+. The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+. The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
+->Forms commonly use checkboxes for questions that may have more than one answer. The input element with a type attribute set to checkbox creates a checkbox.
+.The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+. The head element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page.
+. The title element determines what browsers show in the title bar or tab for the page.
+. The html element is the root element of an HTML page and wraps all content on the page.
+. 
+. <b> bold <b>Example</b> Example
+. <big> big (text) <big>Example</big> Example (Tip)
+. <body>body of HTML document
+. <body>The content of your HTML page</body>Contents of your webpage (Tip)
+. <br> line break The contents of your page<br>The contents of your page
+. <center> center <center>This will center your contents</center> This will center yourcontents
+. <dd>definition description<dl>
+. <dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl>Definition Term
+. <dl> definition list<dl>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl>
+Definition Term
+Definition of the
+term
+Definition Term
+Definition of the
+term
+<dt> definition
+term
+<dl>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+<dt>Definition Term</dt>
+<dd>Definition of the term</dd>
+</dl>
+Definition Term
+Definition of the
+term
+Definition Term
+Definition of the
+term
+
+
+
+DAY 2
+
+HTML basics
+
+->In html there are only 6 heading tags ranges from h1->h6 and we use emmet shortcut(h1+h2+h3+h4+h5+h6+h7)
